@@ -1,5 +1,5 @@
 {
-  "name": "swift-mesh-1bffb3",
+  "name": "bold-gate-d52070",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "swift-mesh-1bffb3",
+      "label": "bold-gate-d52070",
       "protocol": "http",
       "onAutoForward": "silent"
     }
